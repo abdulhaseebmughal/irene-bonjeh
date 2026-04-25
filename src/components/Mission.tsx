@@ -27,7 +27,7 @@ export function Mission() {
                 My practice is built for that work. Not louder messaging. Not faster content.
                 A clearer way to be understood by the people whose belief actually matters to you.
               </p>
-              <p data-reveal className="font-serif italic text-xl text-foreground border-l border-border-strong pl-6">
+              <p data-reveal className="font-serif italic text-xl text-foreground">
                 Clarity is the most underrated form of leadership.
               </p>
             </div>
