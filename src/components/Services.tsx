@@ -24,7 +24,7 @@ const engagements = [
 
 export function Services() {
   return (
-    <section id="services" className="py-20 md:py-24">
+    <section id="services" className="py-14 md:py-20">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-12 mb-12">
           <div className="lg:col-span-7">

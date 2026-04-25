@@ -3,7 +3,7 @@ import about from "@/assets/about-portrait.jpg";
 
 export function Voice() {
   return (
-    <section id="voice" className="py-20 md:py-24 bg-surface">
+    <section id="voice" className="py-14 md:py-20 bg-surface">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <p data-reveal className="eyebrow mb-10">In her own words</p>
 
@@ -19,7 +19,7 @@ export function Voice() {
           </figcaption>
         </figure>
 
-        <div className="mt-28 grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <div className="mt-20 grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-5 grid grid-cols-2 gap-4">
             <div data-reveal className="overflow-hidden rounded-md border border-border-strong aspect-[3/4]">
               <img src={voice} alt="Irene at work" loading="lazy" className="h-full w-full object-cover" style={{ objectPosition: "center 20%" }} />
