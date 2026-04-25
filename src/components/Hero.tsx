@@ -3,7 +3,7 @@ import hero from "@/assets/hero-portrait.jpg";
 
 export function Hero() {
   return (
-    <section id="top" className="relative pt-36 md:pt-44 pb-24 md:pb-32 overflow-hidden">
+    <section id="top" className="relative pt-32 md:pt-40 pb-16 md:pb-20 overflow-hidden">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-end">
           <div className="lg:col-span-7">
@@ -44,7 +44,7 @@ export function Hero() {
                   alt="Irene Bonjeh Azong-Wara, communications strategist"
                   data-parallax
                   className="h-full w-full object-cover"
-                  style={{ objectPosition: "center 15%" }}
+                  style={{ objectPosition: "50% 10%" }}
                 />
               </div>
               <div className="mt-5 flex items-baseline justify-between text-[12px] tracking-wide text-muted-foreground">
@@ -56,7 +56,7 @@ export function Hero() {
         </div>
 
         {/* Quiet credibility row */}
-        <div data-reveal className="mt-24 lg:mt-32 grid grid-cols-2 md:grid-cols-4 gap-px bg-border-strong border border-border-strong rounded-md overflow-hidden">
+        <div data-reveal className="mt-16 lg:mt-20 grid grid-cols-2 md:grid-cols-4 gap-px bg-border-strong border border-border-strong rounded-md overflow-hidden">
           {[
             ["15+", "Years in strategic comms"],
             ["3", "Continents of practice"],
