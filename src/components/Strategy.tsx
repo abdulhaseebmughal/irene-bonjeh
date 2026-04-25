@@ -35,7 +35,7 @@ export function Strategy() {
               They are the reason this work travels.
             </p>
             <div data-reveal className="mt-10 overflow-hidden rounded-md border border-border-strong aspect-[4/5] max-w-sm">
-              <img src={strategy} alt="Irene in a working session" loading="lazy" data-parallax className="h-full w-full object-cover scale-105" />
+              <img src={strategy} alt="Irene in a working session" loading="lazy" data-parallax className="h-full w-full object-cover" style={{ objectPosition: "center 20%" }} />
             </div>
           </div>
 
