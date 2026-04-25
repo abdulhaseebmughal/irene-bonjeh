@@ -26,7 +26,7 @@ export function Services() {
   return (
     <section id="services" className="py-32 md:py-40">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
-        <div className="grid lg:grid-cols-12 gap-12 mb-20">
+        <div className="grid lg:grid-cols-12 gap-12 mb-12">
           <div className="lg:col-span-7">
             <p data-reveal className="eyebrow mb-8">Engagements</p>
             <h2 data-reveal className="editorial-h2 text-5xl md:text-6xl lg:text-7xl">

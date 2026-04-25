@@ -39,9 +39,9 @@ export function Strategy() {
             </div>
           </div>
 
-          <div data-reveal-stagger className="lg:col-span-7 space-y-px bg-border-strong border border-border-strong rounded-md overflow-hidden">
+          <div data-reveal-stagger className="lg:col-span-7 border border-border-strong rounded-md overflow-hidden bg-paper divide-y divide-border-strong">
             {pillars.map((p) => (
-              <article key={p.title} data-reveal className="bg-paper p-8 md:p-10">
+              <article key={p.title} data-reveal className="p-8 md:p-10">
                 <h3 className="font-serif text-2xl md:text-[28px] tracking-tight">{p.title}</h3>
                 <p className="mt-4 text-foreground/75 leading-relaxed max-w-xl">{p.body}</p>
               </article>
