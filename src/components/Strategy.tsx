@@ -21,7 +21,7 @@ const pillars = [
 
 export function Strategy() {
   return (
-    <section id="strategy" className="py-32 md:py-40 bg-surface">
+    <section id="strategy" className="py-20 md:py-24 bg-surface">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-20">
           <div className="lg:col-span-5 lg:sticky lg:top-32 lg:self-start">

@@ -2,7 +2,7 @@ import mission from "@/assets/mission-portrait.jpg";
 
 export function Mission() {
   return (
-    <section id="mission" className="py-32 md:py-40">
+    <section id="mission" className="py-20 md:py-24">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           <div className="lg:col-span-5 order-2 lg:order-1">
@@ -27,7 +27,7 @@ export function Mission() {
                 My practice is built for that work. Not louder messaging. Not faster content.
                 A clearer way to be understood by the people whose belief actually matters to you.
               </p>
-              <p data-reveal className="font-serif italic text-xl text-foreground">
+              <p data-reveal className="font-serif text-xl text-foreground">
                 Clarity is the most underrated form of leadership.
               </p>
             </div>

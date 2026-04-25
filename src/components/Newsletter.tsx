@@ -3,7 +3,7 @@ import cta from "@/assets/cta-portrait.jpg";
 
 export function Newsletter() {
   return (
-    <section id="letters" className="py-32 md:py-40">
+    <section id="letters" className="py-20 md:py-24">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           <div className="lg:col-span-7">
@@ -39,7 +39,7 @@ export function Newsletter() {
                 <img src={cta} alt="Irene" loading="lazy" data-parallax className="h-full w-full object-cover" style={{ objectPosition: "center 15%" }} />
               </div>
               <div className="p-8">
-                <p className="font-serif italic text-xl leading-snug text-foreground">
+                <p className="font-serif text-xl leading-snug text-foreground">
                   The week she wrote about the difference between being seen and being trusted
                   shifted how my whole team writes.
                 </p>
