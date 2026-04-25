@@ -45,9 +45,8 @@ export function Footer() {
                 "Reputation",
                 "Leadership",
               ].map((w) => (
-                <span key={w + i} className="px-10 inline-flex items-center gap-10">
+                <span key={w + i} className="px-10 inline-flex items-center">
                   {w}
-                  <span className="h-1 w-1 rounded-full bg-paper/40" />
                 </span>
               ))}
             </span>
