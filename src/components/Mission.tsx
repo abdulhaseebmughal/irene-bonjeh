@@ -2,7 +2,7 @@ import mission from "@/assets/mission-portrait.jpg";
 
 export function Mission() {
   return (
-    <section id="mission" className="py-20 md:py-24">
+    <section id="mission" className="py-14 md:py-20">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           <div className="lg:col-span-5 order-2 lg:order-1">
