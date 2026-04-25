@@ -9,9 +9,9 @@ export function Voice() {
 
         <figure data-reveal className="max-w-5xl">
           <blockquote className="editorial-h2 text-4xl md:text-5xl lg:text-6xl text-foreground">
-            &ldquo;The brands and leaders we still believe in
+            The brands and leaders we still believe in
             <span className="text-secondary italic"> are the ones who refused to sound like everyone else.</span>
-            That refusal is not branding. It is character, made audible.&rdquo;
+            That refusal is not branding. It is character, made audible.
           </blockquote>
           <figcaption className="mt-10 flex items-center gap-4 text-[13px] text-muted-foreground">
             <span className="h-px w-10 bg-foreground/40" />
@@ -20,12 +20,12 @@ export function Voice() {
         </figure>
 
         <div className="mt-28 grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          <div className="lg:col-span-5 grid grid-cols-2 gap-5">
-            <div data-reveal className="overflow-hidden rounded-md border border-border-strong aspect-[3/4] mt-10">
-              <img src={voice} alt="Irene at work" loading="lazy" className="h-full w-full object-cover" />
+          <div className="lg:col-span-5 grid grid-cols-2 gap-4">
+            <div data-reveal className="overflow-hidden rounded-md border border-border-strong aspect-[3/4]">
+              <img src={voice} alt="Irene at work" loading="lazy" className="h-full w-full object-cover" style={{ objectPosition: "center 20%" }} />
             </div>
             <div data-reveal className="overflow-hidden rounded-md border border-border-strong aspect-[3/4]">
-              <img src={about} alt="Irene portrait" loading="lazy" className="h-full w-full object-cover" />
+              <img src={about} alt="Irene portrait" loading="lazy" className="h-full w-full object-cover" style={{ objectPosition: "center 20%" }} />
             </div>
           </div>
           <div className="lg:col-span-7">

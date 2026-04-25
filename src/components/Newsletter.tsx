@@ -36,12 +36,12 @@ export function Newsletter() {
           <div className="lg:col-span-5">
             <div data-reveal className="rounded-md border border-border-strong overflow-hidden bg-paper">
               <div className="aspect-[4/5] overflow-hidden border-b border-border-strong">
-                <img src={cta} alt="Irene" loading="lazy" data-parallax className="h-full w-full object-cover scale-105" />
+                <img src={cta} alt="Irene" loading="lazy" data-parallax className="h-full w-full object-cover" style={{ objectPosition: "center 15%" }} />
               </div>
               <div className="p-8">
-                <p className="font-serif italic text-xl leading-snug text-foreground">
-                  &ldquo;The week she wrote about the difference between being seen and being trusted
-                  shifted how my whole team writes.&rdquo;
+                <p className="font-serif italic text-xl leading-snug text-foreground border-l border-border-strong pl-5">
+                  The week she wrote about the difference between being seen and being trusted
+                  shifted how my whole team writes.
                 </p>
                 <p className="mt-5 text-[12px] uppercase tracking-[0.2em] text-muted-foreground">
                   Subscriber, Series-B founder

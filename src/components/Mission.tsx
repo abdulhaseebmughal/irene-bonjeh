@@ -7,7 +7,7 @@ export function Mission() {
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div data-reveal className="overflow-hidden rounded-md border border-border-strong aspect-[4/5]">
-              <img src={mission} alt="Irene speaking on a leadership panel" loading="lazy" data-parallax className="h-full w-full object-cover scale-105" />
+              <img src={mission} alt="Irene speaking on a leadership panel" loading="lazy" data-parallax className="h-full w-full object-cover" style={{ objectPosition: "center 20%" }} />
             </div>
           </div>
           <div className="lg:col-span-7 order-1 lg:order-2">
@@ -27,8 +27,8 @@ export function Mission() {
                 My practice is built for that work. Not louder messaging. Not faster content.
                 A clearer way to be understood by the people whose belief actually matters to you.
               </p>
-              <p data-reveal className="font-serif italic text-xl text-foreground">
-                &ldquo;Clarity is the most underrated form of leadership.&rdquo;
+              <p data-reveal className="font-serif italic text-xl text-foreground border-l border-border-strong pl-6">
+                Clarity is the most underrated form of leadership.
               </p>
             </div>
           </div>

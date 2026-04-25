@@ -43,7 +43,8 @@ export function Hero() {
                   src={hero}
                   alt="Irene Bonjeh Azong-Wara, communications strategist"
                   data-parallax
-                  className="h-full w-full object-cover scale-105"
+                  className="h-full w-full object-cover"
+                  style={{ objectPosition: "center 15%" }}
                 />
               </div>
               <div className="mt-5 flex items-baseline justify-between text-[12px] tracking-wide text-muted-foreground">
