@@ -29,14 +29,13 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Irene Bonjeh Azong-Wara — Strategic Communications" },
+      { name: "description", content: "An independent communications practice for leaders who would rather be understood than amplified." },
+      { name: "author", content: "Irene Bonjeh Azong-Wara" },
+      { property: "og:title", content: "Irene Bonjeh Azong-Wara — Strategic Communications" },
+      { property: "og:description", content: "Communication that earns trust." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {

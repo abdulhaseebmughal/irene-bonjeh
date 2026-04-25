@@ -3,7 +3,7 @@ import about from "@/assets/about-portrait.jpg";
 
 export function Voice() {
   return (
-    <section id="voice" className="py-14 md:py-20 bg-surface">
+    <section id="voice" className="py-10 md:py-14 bg-surface">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <p data-reveal className="eyebrow mb-10">In her own words</p>
 
