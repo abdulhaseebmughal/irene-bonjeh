@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-foreground text-paper">
       {/* Pre-footer CTA */}
       <section className="border-b border-paper/15">
-        <div className="mx-auto max-w-[1400px] px-6 md:px-10 py-28 md:py-36">
+        <div className="mx-auto max-w-[1400px] px-6 md:px-10 py-20 md:py-24">
           <p className="eyebrow text-paper/60 mb-10">Begin</p>
           <h2 className="editorial-display text-[12vw] sm:text-[9vw] lg:text-[7vw] xl:text-[110px] text-paper">
             One conversation
@@ -45,9 +45,8 @@ export function Footer() {
                 "Reputation",
                 "Leadership",
               ].map((w) => (
-                <span key={w + i} className="px-10 inline-flex items-center gap-10">
+                <span key={w + i} className="px-10 inline-flex items-center">
                   {w}
-                  <span className="h-1 w-1 rounded-full bg-paper/40" />
                 </span>
               ))}
             </span>
