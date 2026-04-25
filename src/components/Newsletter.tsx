@@ -39,7 +39,7 @@ export function Newsletter() {
                 <img src={cta} alt="Irene" loading="lazy" data-parallax className="h-full w-full object-cover" style={{ objectPosition: "center 15%" }} />
               </div>
               <div className="p-8">
-                <p className="font-serif italic text-xl leading-snug text-foreground border-l border-border-strong pl-5">
+                <p className="font-serif italic text-xl leading-snug text-foreground">
                   The week she wrote about the difference between being seen and being trusted
                   shifted how my whole team writes.
                 </p>

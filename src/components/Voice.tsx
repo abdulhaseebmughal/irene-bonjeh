@@ -8,11 +8,11 @@ export function Voice() {
         <p data-reveal className="eyebrow mb-10">In her own words</p>
 
         <figure data-reveal className="max-w-5xl">
-          <blockquote className="editorial-h2 text-4xl md:text-5xl lg:text-6xl text-foreground">
+          <p className="editorial-h2 text-4xl md:text-5xl lg:text-6xl text-foreground">
             The brands and leaders we still believe in
             <span className="text-secondary italic"> are the ones who refused to sound like everyone else.</span>
             That refusal is not branding. It is character, made audible.
-          </blockquote>
+          </p>
           <figcaption className="mt-10 flex items-center gap-4 text-[13px] text-muted-foreground">
             <span className="h-px w-10 bg-foreground/40" />
             <span>Irene Bonjeh Azong-Wara</span>
