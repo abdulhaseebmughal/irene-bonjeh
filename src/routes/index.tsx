@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useReveal } from "@/hooks/use-reveal";
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
 import { Mission } from "@/components/Mission";
@@ -14,13 +13,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Irene Bonjeh Azong-Wara — Strategic Communications & Brand Voice" },
+      { title: "Clarity Catalyst Strategic Communications & Brand Voice" },
       {
         name: "description",
         content:
-          "An independent communications practice for leaders who would rather be understood than amplified. Strategy, voice and advisory by Irene Bonjeh Azong-Wara.",
+          "An independent communications practice for leaders who would rather be understood than amplified. Strategy, voice and advisory by Clarity Catalyst.",
       },
-      { property: "og:title", content: "Irene Bonjeh Azong-Wara — Strategic Communications" },
+      { property: "og:title", content: "Clarity Catalyst Strategic Communications" },
       {
         property: "og:description",
         content:
@@ -35,9 +34,8 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const scope = useReveal();
   return (
-    <div ref={scope} className="min-h-screen bg-background text-foreground antialiased">
+    <div className="min-h-screen bg-background text-foreground antialiased">
       <Nav />
       <main>
         <Hero />

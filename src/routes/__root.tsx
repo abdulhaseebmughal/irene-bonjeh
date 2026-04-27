@@ -29,10 +29,10 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Irene Bonjeh Azong-Wara — Strategic Communications" },
+      { title: "Clarity Catalyst Strategic Communications" },
       { name: "description", content: "An independent communications practice for leaders who would rather be understood than amplified." },
-      { name: "author", content: "Irene Bonjeh Azong-Wara" },
-      { property: "og:title", content: "Irene Bonjeh Azong-Wara — Strategic Communications" },
+      { name: "author", content: "Clarity Catalyst" },
+      { property: "og:title", content: "Clarity Catalyst Strategic Communications" },
       { property: "og:description", content: "Communication that earns trust." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

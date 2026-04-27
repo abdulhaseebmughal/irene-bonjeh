@@ -9,9 +9,9 @@ type CommonProps = {
 type ButtonProps = CommonProps & ButtonHTMLAttributes<HTMLButtonElement> & { as?: "button" };
 type AnchorProps = CommonProps & AnchorHTMLAttributes<HTMLAnchorElement> & { as: "a" };
 
-export function MagneticButton(props: ButtonProps | AnchorProps) {
+export function Button(props: ButtonProps | AnchorProps) {
   const variant = props.variant ?? "primary";
-  const cls = `magnetic-btn ${variant === "primary" ? "magnetic-btn-primary" : "magnetic-btn-ghost"} ${props.className ?? ""}`;
+  const cls = `btn-professional ${variant === "primary" ? "btn-professional-primary" : "btn-professional-ghost"} ${props.className ?? ""}`;
 
   if ("as" in props && props.as === "a") {
     const { as: _as, variant: _v, className: _c, children, ...rest } = props;
@@ -38,3 +38,4 @@ function Arrow() {
     </svg>
   );
 }
+

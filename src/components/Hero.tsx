@@ -1,54 +1,56 @@
-import { MagneticButton } from "./MagneticButton";
+import { Button } from "./Button";
 import hero from "@/assets/hero-portrait.jpg";
 
 export function Hero() {
   return (
-    <section id="top" className="relative pt-32 md:pt-40 pb-16 md:pb-20 overflow-hidden">
-      <div className="mx-auto max-w-[1400px] px-6 md:px-10">
-        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-end">
-          <div className="lg:col-span-7">
-            <p data-reveal className="eyebrow mb-8">
-              Strategic Communications &nbsp;·&nbsp; Brand Voice &nbsp;·&nbsp; Public Affairs
+    <section id="top" className="relative pt-48 md:pt-60 pb-8 md:pb-10 overflow-hidden section-gap">
+      <div className="container-fluid">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="flex flex-col w-full">
+            <p className="eyebrow mb-14 flex flex-wrap gap-x-12 gap-y-4">
+              <span>Strategic Communications</span>
+              <span>Brand Voice</span>
+              <span>Public Affairs</span>
             </p>
-            <h1 data-reveal className="editorial-display text-[14vw] sm:text-[10vw] lg:text-[7.2vw] xl:text-[112px]">
+            <h1 className="editorial-display">
               Communication
               <br />
               that earns
               <br />
               <em className="italic font-light text-secondary">trust.</em>
             </h1>
-            <p data-reveal className="body-lead mt-10 max-w-xl text-foreground/80">
-              I help leaders, founders and institutions move from noise to clarity — shaping the narrative
+            <p className="body-lead mt-10 text-foreground/80">
+              I help leaders, founders and institutions move from noise to clarity shaping the narrative
               that puts their work, and their values, at the centre of the conversation.
             </p>
-            <div data-reveal className="mt-10 flex flex-wrap items-center gap-4">
-              <MagneticButton
+            <div className="mt-10 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+              <Button
                 as="a"
                 href="https://cal.com/irene-bonjeh/clarity-call"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="w-full sm:w-auto"
               >
                 Book a Clarity Call
-              </MagneticButton>
-              <MagneticButton as="a" href="#services" variant="ghost">
+              </Button>
+              <Button as="a" href="#services" variant="ghost" className="w-full sm:w-auto">
                 See how we work together
-              </MagneticButton>
+              </Button>
             </div>
           </div>
 
-          <div className="lg:col-span-5">
-            <div data-reveal className="relative">
+          <div className="w-full mt-10 md:mt-16 lg:mt-0 lg:pt-24">
+            <div className="relative">
               <div className="overflow-hidden rounded-md border border-border-strong bg-muted aspect-[4/5]">
                 <img
                   src={hero}
-                  alt="Irene Bonjeh Azong-Wara, communications strategist"
-                  data-parallax
+                  alt="Communications strategist"
                   className="h-full w-full object-cover"
-                  style={{ objectPosition: "50% 10%" }}
+                  style={{ objectPosition: "top center" }}
                 />
               </div>
-              <div className="mt-5 flex items-baseline justify-between text-[12px] tracking-wide text-muted-foreground">
-                <span>Irene Bonjeh Azong-Wara</span>
+              <div className="mt-5 flex items-baseline justify-between text-[12px] tracking-wide text-muted-foreground font-sans">
+                <span>Communications Strategy</span>
                 <span className="font-serif italic text-foreground/70">Founder &amp; Principal</span>
               </div>
             </div>
@@ -56,7 +58,7 @@ export function Hero() {
         </div>
 
         {/* Quiet credibility row */}
-        <div data-reveal className="mt-16 lg:mt-20 grid grid-cols-2 md:grid-cols-4 gap-px bg-border-strong border border-border-strong rounded-md overflow-hidden">
+        <div className="mt-16 lg:mt-20 grid grid-cols-2 md:grid-cols-4 gap-px bg-border-strong border border-border-strong rounded-md overflow-hidden">
           {[
             ["15+", "Years in strategic comms"],
             ["3", "Continents of practice"],
@@ -73,3 +75,4 @@ export function Hero() {
     </section>
   );
 }
+

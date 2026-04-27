@@ -1,32 +1,32 @@
-import { MagneticButton } from "./MagneticButton";
+import { Button } from "./Button";
 import mark from "@/assets/irene-mark.png";
 
 export function Footer() {
   return (
-    <footer className="bg-foreground text-paper">
+    <footer className="bg-foreground text-paper section-gap pb-10">
       {/* Pre-footer CTA */}
       <section className="border-b border-paper/15">
-        <div className="mx-auto max-w-[1400px] px-6 md:px-10 py-14 md:py-16">
+        <div className="container-fluid py-7 md:py-8">
           <p className="eyebrow text-paper/60 mb-10">Begin</p>
-          <h2 className="editorial-display text-[12vw] sm:text-[9vw] lg:text-[7vw] xl:text-[110px] text-paper">
+          <h2 className="editorial-display text-paper">
             One conversation
             <br />
             <span className="italic text-accent">changes the room.</span>
           </h2>
           <p className="mt-10 max-w-xl text-paper/70 text-lg leading-relaxed">
             Twenty minutes. No pitch. We talk through what you are actually trying to be
-            understood for — and whether working together would make that easier.
+            understood for and whether working together would make that easier.
           </p>
           <div className="mt-12">
-            <MagneticButton
+            <Button
               as="a"
               href="https://cal.com/irene-bonjeh/clarity-call"
               target="_blank"
               rel="noopener noreferrer"
-              className="!bg-paper !text-foreground !border-paper hover:!bg-accent hover:!border-accent"
+              className="!bg-paper !text-foreground !border-paper hover:!bg-accent hover:!border-accent w-full sm:w-auto"
             >
               Book a Clarity Call
-            </MagneticButton>
+            </Button>
           </div>
         </div>
       </section>
@@ -34,7 +34,7 @@ export function Footer() {
       {/* Marquee */}
       <div className="overflow-hidden border-b border-paper/15 py-8">
         <div className="marquee-track flex whitespace-nowrap font-serif italic text-paper/40 text-3xl md:text-5xl">
-          {Array.from({ length: 2 }).map((_, i) => (
+          {Array.from({ length: 4 }).map((_, i) => (
             <span key={i} className="flex items-center">
               {[
                 "Communication",
@@ -45,7 +45,7 @@ export function Footer() {
                 "Reputation",
                 "Leadership",
               ].map((w) => (
-                <span key={w + i} className="px-10 inline-flex items-center">
+                <span key={w + i} className="px-12 inline-flex items-center">
                   {w}
                 </span>
               ))}
@@ -55,14 +55,14 @@ export function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="mx-auto max-w-[1400px] px-6 md:px-10 py-14">
+      <div className="container-fluid py-10">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
             <div className="flex items-center gap-3">
               <span className="h-9 w-9 rounded-full overflow-hidden border border-paper/20">
-                <img src={mark} alt="Irene Bonjeh Azong-Wara" className="h-full w-full object-cover" />
+                <img src={mark} alt="Practice" className="h-full w-full object-cover" />
               </span>
-              <span className="font-serif text-lg">Irene Bonjeh Azong-Wara</span>
+              <span className="font-serif text-lg">Clarity Catalyst</span>
             </div>
             <p className="mt-5 text-paper/60 text-sm max-w-sm leading-relaxed">
               An independent communications practice for leaders who would rather be
@@ -90,28 +90,29 @@ export function Footer() {
               </li>
               <li>
                 <a href="https://bit.ly/4840ZYH" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
-                  The Comms Trap — newsletter
+                  The Comms Trap newsletter
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-paper/15 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-[12px] text-paper/50">
-          <span>© {new Date().getFullYear()} Irene Bonjeh Azong-Wara. All rights reserved.</span>
-          <span>
-            Designed by{" "}
+        <div className="mt-16 pt-8 border-t border-paper/15 flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-[12px] text-paper/50">
+          <span>© {new Date().getFullYear()} All rights reserved.</span>
+          <div className="flex items-center gap-2">
+            <span>Built by</span>
             <a
               href="https://www.linkedin.com/in/abdul-haseeb-developer/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-paper/80 hover:text-accent transition-colors border-b border-paper/30 hover:border-accent pb-0.5"
+              className="bg-paper text-foreground px-3 py-1.5 rounded-md font-bold tracking-tight hover:bg-accent transition-colors"
             >
-              Haseeb
+              Abdul Haseeb
             </a>
-          </span>
+          </div>
         </div>
       </div>
     </footer>
   );
 }
+
