@@ -8,7 +8,7 @@ export function Hero() {
       className="relative pt-48 md:pt-60 pb-8 md:pb-10 overflow-hidden section-gap"
       style={{
         backgroundImage:
-          "url('https://i.pinimg.com/1200x/47/85/8d/47858d858fe59255805a2af1c1972718.jpg')",
+          "url('https://i.pinimg.com/736x/ea/2b/32/ea2b32c5e532f4337ee8ee864d9a98af.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
