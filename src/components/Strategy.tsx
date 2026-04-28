@@ -18,7 +18,7 @@ const pillars = [
     body: "What separates a recognised leader from a generic one is voice. I treat yours as an asset and I do not let trends or templates flatten it.",
   },
 ];
-
+// approach 
 export function Strategy() {
   return (
     <section id="strategy" className="section-gap bg-surface">
