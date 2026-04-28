@@ -8,7 +8,7 @@ export function Nav() {
   return (
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="container-fluid pt-6">
-        <div className="flex items-center justify-between rounded-md border border-border bg-paper/80 backdrop-blur-md px-5 py-3">
+        <div className="flex items-center justify-between rounded-md border border-border bg-paper/80 backdrop-blur-md px-6 py-4">
           <a href="#top" className="flex items-center gap-3">
             <span className="h-8 w-8 rounded-full overflow-hidden border border-border-strong">
               <img src={mark} alt="Irene Bonjeh Azong-Wara" className="h-full w-full object-cover" />
@@ -18,7 +18,7 @@ export function Nav() {
             </span>
           </a>
           
-          <nav className="hidden md:flex items-center gap-8 text-[13px] text-muted-foreground">
+          <nav className="hidden md:flex items-center gap-10 text-[13px] text-muted-foreground">
             <a href="#mission" className="hover:text-foreground transition-colors">Practice</a>
             <a href="#strategy" className="hover:text-foreground transition-colors">Approach</a>
             <a href="#services" className="hover:text-foreground transition-colors">Engagements</a>
